@@ -95,7 +95,7 @@ body{
 }
 
 /* animation */
-/* .shoe-category-img, .bag-category-img, .watch-category-img{
+.shoe-category-img, .bag-category-img, .watch-category-img{
     transition: 700ms;
 }
 .category-box:hover .shoe-category-img{
@@ -106,4 +106,4 @@ body{
 }
 .category-box:hover .watch-category-img{
     transform:  rotate(90deg);  
-} */
+}
