@@ -4,9 +4,272 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/da87f8d09a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Homepage - Panda Commerce</title>
 </head>
 <body>
+    <!--  remaining  tasks  
+        * search input 
+
     
+    -->
+
+    <!-- layout design  -->
+
+    <header>
+        <!-- navigation bar  -->
+        <section>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="/assets/images/logo.png" alt="">
+                    </a>
+                    <!-- not clear s  -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <!-- not clear e  -->
+                    <!-- search  -->
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <!-- <button class="btn btn-outline-success" type="submit">Search</button> -->
+                    </form>
+                    <!-- menu links  -->
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#">Product</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+                        
+                    </ul>
+                    
+                    </div>
+                </div>
+              </nav>
+        </section>
+        
+        <!-- slider  -->
+        <section class="container panda-bg-gold-rose rounded-3 mt-5">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner  ">
+                  <div class="carousel-item active">
+                      <div class="row d-flex  align-items-center">
+                        <div class="col-7 ">
+                            <h1>Mi LED TV 4A PRO 32</h1>
+                            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                            <h1>$1289</h1>
+                            <a href="" class="btn btn-info" >Buy Now  <i class="fas fa-arrow-right"></i> </a>
+                        </div>
+                        <div class="col-5">
+                            <img src="assets/images/banner-images/tv.png" class="d-block w-100" alt="...">  
+                        </div>
+                      </div>
+                  </div>
+                  <div class="carousel-item">
+                      <div class="row d-flex  align-items-center">
+                        <div class="col-7 ">
+                            <h1>Mi LED TV 4A PRO 32</h1>
+                            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                            <h1>$1289</h1>
+                            <a href="" class="btn btn-info" >Buy Now  <i class="fas fa-arrow-right"></i> </a>
+                        </div>
+                        <div class="col-5">
+                            <img src="assets/images/banner-images/headphone.png" class="d-block w-100" alt="...">  
+                        </div>
+                      </div>
+                  </div>
+                  <div class="carousel-item">
+                      <div class="row d-flex  align-items-center">
+                        <div class="col-7 ">
+                            <h1>Mi LED TV 4A PRO 32</h1>
+                            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                            <h1>$1289</h1>
+                            <a href="" class="btn btn-info" >Buy Now  <i class="fas fa-arrow-right"></i> </a>
+                        </div>
+                        <div class="col-5">
+                            <img src="assets/images/banner-images/xbox.png" class="d-block w-100" alt="...">  
+                        </div>
+                      </div>
+                  </div>
+                  
+                  
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </section>
+    </header>
+    <main>
+
+        <!-- category section  -->
+        
+        <section class="categories mt-5">
+            <div class="container ">
+                <h1>Categories</h1>
+                <div class="row ">
+                    
+                    <div class="col-4 ">
+                        <div class="bg-info d-flex  justify-content-around align-items-center text-white rounded-3  p-3 ">
+                            <h3>Watch</h3>
+                            <img src="assets/images/categories/watch.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-4 ">
+                        <div class="bg-info d-flex  justify-content-around align-items-center text-white rounded-3  p-3 ">
+                            <h3>Bag</h3>
+                            <img src="assets/images/categories/bag.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-4 ">
+                        <div class="bg-info d-flex  justify-content-around align-items-center text-white rounded-3  p-3 ">
+                            <h3>Shoes</h3>
+                            <img src="assets/images/categories/shoes.png" alt="">
+                        </div>
+                    </div>
+                   
+                    
+                </div>
+            </div>
+           
+        </section>
+        <!-- shoes section -->
+        <section class="shoes">
+            <div class="container">
+                <div class="row">
+                    <h1>Shoes</h1>
+                    <a href="" class="show-see-all">See All</a>
+                </div>
+                <div class="row">
+                    <div class="col-4">
+                        <div class="">
+                            <img src="assets/images/shoes/shoe-1.png" alt="" class="img-fluid">
+                            <h2>Reebok Dart Men’s Shoes</h2>
+                            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
+                            <span class="shoe-price" >$1289</span>
+                            <br>
+                            <a href="" class="btn btn-dark" >Buy Now  <i class="fas fa-arrow-right"></i> </a>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="">
+                            <img src="assets/images/shoes/shoe-1.png" alt="" class="img-fluid">
+                            <h2>Reebok Dart Men’s Shoes</h2>
+                            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
+                            <span class="shoe-price" >$1289</span>
+                            <br>
+                            <a href="" class="btn btn-dark" >Buy Now  <i class="fas fa-arrow-right"></i> </a>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="">
+                            <img src="assets/images/shoes/shoe-1.png" alt="" class="img-fluid">
+                            <h2>Reebok Dart Men’s Shoes</h2>
+                            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
+                            <span class="shoe-price" >$1289</span>
+                            <br>
+                            <a href="" class="btn btn-dark" >Buy Now  <i class="fas fa-arrow-right"></i> </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <a href="" class="show-see-all">See All</a>
+                </div>
+            </div>
+            
+
+        </section>
+        <!-- Backpack section  -->
+        <section class="shoes">
+            <div class="container">
+                <div class="row">
+                    <h1>Backpack</h1>
+                    <a href="" class="show-see-all">See All</a>
+                </div>
+                <div class="row">
+                    <div class="col-4">
+                        <div class="">
+                            <img src="assets/images/bags/bag-1.png" alt="" class="img-fluid">
+                            <h2>Ison Backpack</h2>
+                            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.  </p>
+                            <span class="shoe-price" >$1289</span>
+                            <br>
+                            <a href="" class="btn btn-dark" >Buy Now  <i class="fas fa-arrow-right"></i> </a>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="">
+                            <img src="assets/images/bags/bag-1.png" alt="" class="img-fluid">
+                            <h2>Ison Backpack</h2>
+                            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.  </p>
+                            <span class="shoe-price" >$1289</span>
+                            <br>
+                            <a href="" class="btn btn-dark" >Buy Now  <i class="fas fa-arrow-right"></i> </a>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="">
+                            <img src="assets/images/bags/bag-1.png" alt="" class="img-fluid">
+                            <h2>Ison Backpack</h2>
+                            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.  </p>
+                            <span class="shoe-price" >$1289</span>
+                            <br>
+                            <a href="" class="btn btn-dark" >Buy Now  <i class="fas fa-arrow-right"></i> </a>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="row">
+                    <a href="" class="show-see-all">See All</a>
+                </div>
+            </div>
+            
+
+        </section>
+        <!-- subscribe section  -->
+        <section class="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-title">
+                        LET'S STAY IN TOUCH
+                    </div>
+                    <div class="contact-subtitle">
+                        Get updates on sales specials and more
+                    </div>
+                    <div class="email-submit">
+                        <input type="text" name="" id="" placeholder="Enter your email" class="form-control">
+                        <a href="" class="btn btn-info">Send</a>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <!-- copyright information  -->
+        Developed by <a href="">Shafiq Suhag</a>
+    </footer>
+
+    <div style="height:300px"></div>
+
+    <!-- bootstrap js  -->
+    <script src="assets/js/bootstrap.min.js"></script>
 </body>
 </html>
