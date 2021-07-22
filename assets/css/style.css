@@ -5,7 +5,7 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
-/* background color  */
+/* custom background color  */
 
 .panda-bg-gold-rose{
     
@@ -63,6 +63,10 @@ body{
     transition: 1s;
 } */
 
+/* ------------------------------------------------
+           section customize
+--------------------------------------------------*/
+
 
 /* contact section  */
 .contact {
@@ -107,3 +111,21 @@ body{
 .category-box:hover .watch-category-img{
     transform:  rotate(90deg);  
 }
+#search-input, #search-input::placeholder{
+    color: #BABABA;
+    background-color: #F1F1F1;
+    width: 30rem;
+}
+#search-button {
+    position: absolute;
+    right: 15px;
+    color: #BABABA;
+}
+
+/* header  */
+
+/* header navigation  */
+/* .header-nav{
+    margin-top: 20px;
+} */
+

@@ -20,52 +20,57 @@
 
     <header class="bg-white">
         <!-- navigation bar  -->
-        <section>
-
-            <!-- menu  -->
-            
-            <!-- menu  -->
-
+        <section class="header-nav mt-2">
+           
+            <!-- menu  # -->
             <div class="container">
             
                 <nav class="navbar navbar-expand-lg navbar-light ">
                     <div class="container-fluid">
-                        <!-- logo                   -->                 
+                        <!-- logo  -->
                         <a class="navbar-brand" href="#">
                             <img src="assets/images/logo.png" alt="">
                         </a>
-                          <!-- mobile bar -->
-                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <!-- mobile bar -->
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
-                        <!-- mobile bar end   -->
-                        
                         <!-- search  -->
-                        <form class="d-flex">
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                            <!-- <button class="btn btn-outline-success" type="submit">Search</button> -->
-                        </form>
-
-
-                        <!-- menu links  -->
-                       
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
-                                </li>
-                                <li class="nav-item">
-                                <a class="nav-link" href="#">Product</a>
-                                </li>
-                                <li class="nav-item">
-                                <a class="nav-link" href="#">About Us</a>
-                                </li>
-                                <li class="nav-item">
-                                <a class="nav-link" href="#">Contact Us</a>
-                                </li>
-                                
-                            </ul>
+                        <div class="d-none d-sm-block">
+                            <form class="d-flex align-items-center " style="position: relative;">
+                                <input id="search-input" class="form-control me-2 rounded-pill border-0" type="search" placeholder="Search Here" aria-label="Search" >
+                                <a href="#" id="search-button"><i class="fas fa-search" ></i></a>
+                                <!-- <button id="search-button" class="btn btn-outline-success border-0 rounded-circle" type="submit" style="position: absolute;right: 10px; top:2px"><i class="fas fa-search"></i></button> -->
+                            </form>
                         </div>
+                        
+                        <!-- menu links  -->
+                        <div>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav mb-2 mb-lg-0">
+                                    <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                    <a class="nav-link" href="#">Product</a>
+                                    </li>
+                                    <li class="nav-item">
+                                    <a class="nav-link" href="#">About Us</a>
+                                    </li>
+                                    <li class="nav-item">
+                                    <a class="nav-link" href="#">Contact Us</a>
+                                    </li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        
+                       
+                        
+                        
+
+                        
                       
                     </div>
                         
@@ -78,6 +83,10 @@
                     </div> -->
                 </nav>
             </div>
+            <!-- menu  ## -->
+            
+            <!-- menu  -->
+
             
         </section>
         
@@ -301,7 +310,7 @@
         </section>
        
         <!-- subscribe section  -->
-        <section >
+        <!-- <section >
             <div class="container ">
                 <div class="row p-5">
                     <div class="contact panda-bg-gold-rose d-flex flex-column align-items-center justify-content-md-end rounded-3 ">
@@ -320,7 +329,7 @@
                 </div>
                 
             </div>
-        </section>
+        </section> -->
 
     </main>
     <footer class="m-5 text-center ">
