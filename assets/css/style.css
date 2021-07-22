@@ -114,7 +114,7 @@ body{
 #search-input, #search-input::placeholder{
     color: #BABABA;
     background-color: #F1F1F1;
-    width: 30rem;
+    /* width: 30rem; */
 }
 #search-button {
     position: absolute;
