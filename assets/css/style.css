@@ -111,10 +111,12 @@ body{
 .category-box:hover .watch-category-img{
     transform:  rotate(90deg);  
 }
-#search-input, #search-input::placeholder{
-    color: #BABABA;
+#search-input{
+    color: #878686;
     background-color: #F1F1F1;
-    /* width: 30rem; */
+}
+#search-input::placeholder{
+    color: #BABABA;
 }
 #search-button {
     position: absolute;
