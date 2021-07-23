@@ -124,14 +124,13 @@ body{
 
 /* header  */
 
-/* header navigation  */
-/* .header-nav{
-    margin-top: 20px;
-} */
 
 
 /* small */
 @media  screen and (max-width:  768px) {
+
+
+    /* CONTACT SECTION  */
     .contact {
         height: 300px;
     }
