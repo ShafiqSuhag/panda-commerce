@@ -129,3 +129,43 @@ body{
     margin-top: 20px;
 } */
 
+
+/* small */
+@media  screen and (max-width:  768px) {
+    .contact {
+        height: 300px;
+    }
+    .email-submit input{
+        font-size: 1.2rem;
+        width: 15rem;
+    }
+    .email-submit input::placeholder{
+        text-align: center;
+    }
+    .btn-pink-gradient{
+        width: 100%;
+        font-size: 1.2rem;
+       
+        
+    }
+}
+/* Medium */
+@media  screen and (min-width: 576px)  and (max-width: 767px) {
+   
+}
+/* Large */
+@media  screen and (min-width: 768px)  and (max-width: 991px) {
+   
+}
+/* X-Large */
+@media  screen and (min-width: 992px)  and (max-width: 1159px) {
+   
+}
+/* XX-Large */
+@media  screen and (min-width: 1200px)  and (max-width: 1399px) {
+   
+}
+/* XXX-Large */
+@media  screen and (min-width: 1400px) {
+   
+}
